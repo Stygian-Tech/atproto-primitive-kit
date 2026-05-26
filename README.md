@@ -1,16 +1,13 @@
-# atproto-primitives
+# atproto-primitive-kit
 
 Shared AT Protocol primitives for Swift packages: DID validation, AT-URI parsing, NSID parsing, Base64URL helpers, and shared errors.
 
-## Requirements
-
-- Swift 6.0+
-- macOS 14+ / iOS 17+
+Swift product: **`ATProtoPrimitiveKit`**
 
 ## Usage
 
 ```swift
-import AtprotoPrimitives
+import ATProtoPrimitiveKit
 
 let uri = ATURI("at://did:plc:abc/com.example.post/3jz...")
 let nsid = NSID("com.example.collection")
@@ -26,4 +23,4 @@ scripts/check.sh
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT

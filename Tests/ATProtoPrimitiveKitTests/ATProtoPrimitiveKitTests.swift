@@ -1,4 +1,4 @@
-import AtprotoPrimitives
+import ATProtoPrimitiveKit
 import Testing
 
 @Suite("ATURI")
