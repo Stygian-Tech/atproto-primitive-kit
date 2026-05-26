@@ -1,4 +1,4 @@
-import StygianCore
+import AtprotoPrimitives
 import Testing
 
 @Suite("ATURI")

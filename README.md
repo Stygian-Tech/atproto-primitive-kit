@@ -1,6 +1,6 @@
-# stygian-core
+# atproto-primitives
 
-Shared AT Protocol primitives for Stygian Swift packages: DID validation, AT-URI parsing, NSID parsing, Base64URL helpers, and shared errors.
+Shared AT Protocol primitives for Swift packages: DID validation, AT-URI parsing, NSID parsing, Base64URL helpers, and shared errors.
 
 ## Requirements
 
@@ -10,7 +10,7 @@ Shared AT Protocol primitives for Stygian Swift packages: DID validation, AT-URI
 ## Usage
 
 ```swift
-import StygianCore
+import AtprotoPrimitives
 
 let uri = ATURI("at://did:plc:abc/com.example.post/3jz...")
 let nsid = NSID("com.example.collection")
